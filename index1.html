@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institute of Languages & Training</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .floating-images {
+        position: fixed;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .floating-images img {
+        width: 120px; /* Adjust the size as needed */
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .floating-images img:hover {
+        transform: scale(1.2);
+    }
+    </style>
+</head>
+
+<body>
+    <div class="floating-images">
+        <img src="images.jpeg" alt="Image 1">
+        <img src="images2.jpeg" alt="Image 2">
+        <!-- Add more images as needed -->
+    </div>
+
+    <header>
+        <h1>INSTITUTE OF LANGUAGES & TRAINING (ILAT)</h1>
+        <p><h2>Train locally. Communicate Globally</h2></p>
+    </header>
+
+    <nav>
+        <a href="about.html">About</a>
+        <a href="mission.html">Mission</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to ILAT</h2>
+        <p>
+            ILAT is an educational institution that focuses on teaching languages and professional training. The institute aims to be the top institution in Somaliland providing language and in-service training.
+        </p>
+        <p>
+            ILAT is dedicated to providing education that meets international standards. To ensure that its training meets the required benchmarks, the college follows the Common European Framework of Reference for Languages (CEFRL), which offers a comprehensive guide for language teaching, learning, and assessment.
+        </p>
+    </section>
+
+    <footer>
+        &copy; 2023 Institute of Languages & Training (ILAT)
+    </footer>
+</body>
+
+</html>
